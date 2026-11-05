@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!---navigation bar-->
+ <nav>
+    <h2>Sathiyamoorthi</h2>
+
+    <button id="menuBtn">☰</button>
+
+    <ul id="navLinks" >
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+ </nav>
+
+ <!--welcome part-->
+
+ <section id="home">
+
+    <h3>Hello, I'm</h3>
+
+    <h1  >Sathiyamoorthi</h1>
+
+    <h2>Java Full Stack Developer</h2>
+
+    <p>
+        I am a passionate developer interested in
+        building web applications using Java,
+        Spring Boot,Spring Data JPA/Hibernate and SQL.
+    </p>
+
+    <a href="#projects">View Projects</a>
+
+    <a href="#contact">Contact Me</a>
+
+  
+  
+
+
+
+
+</section>
+
+<!--about me section-->
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        I am a B.Tech graduate and aspiring Java Full Stack Developer.
+        I have knowledge of Java, JDBC, Spring Boot,
+        HTML, CSS and JavaScript.
+    </p>
+
+    <p>
+        I enjoy learning new technologies and building
+        real-world web applications.
+    </p>
+
+</section>
+
+<!-- Skills Section-->
+ <section id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Backend</h3>
+            <p>Java, JDBC, Spring Boot, REST API, Spring Data JPA</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Database</h3>
+            <p>MySQL, PostgreSQL</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- portfolio projects -->
+ <section id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Varshini Packers & Movers</h3>
+
+            <p>
+                A business website for packing and
+                moving services with an enquiry form.
+            </p>
+
+            <p>HTML, CSS, JavaScript</p>
+
+            <a href="https://www.varshinipackersandmovers.com"
+               target="_blank">
+                Live Demo
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>Library Management System</h3>
+
+            <p>
+                A REST API project for managing
+                library users and books.
+            </p>
+
+            <p>Java, Spring Boot, PostgreSQL</p>
+
+            <a href="#" target="_blank">
+                GitHub
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--contact section-->
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>Have a project in mind? Let's work together!</p>
+
+    <div class="contact-info">
+
+        <p>Email: sm010010001@gmail.com</p>
+
+        <p>Location: Chennai, India</p>
+
+    </div>
+
+    <form id="contactForm"  action="https://formsubmit.co/sm010010001@gmail.com" method="POST">
+
+    <input type="text"
+           id="name"
+           placeholder="Enter your name"
+           required>
+
+    <input type="email"
+           id="email"
+           placeholder="Enter your email"
+           required>
+
+    <textarea id="message"
+              placeholder="Enter your message"
+              required></textarea>
+              
+               <input type="hidden" name="_subject" value="New Portfolio Contact Message!">
+
+    <button type="submit">Send Message</button>
+
+
+</form>
+
+</section>
+
+<button id="topBtn">↑</button>
+
+<!-- Social Media Section -->
+<section id="social">
+
+    <h2>Connect With Me</h2>
+
+    <p>Let's connect and discuss opportunities!</p>
+
+    <div class="social-links">
+
+        <a href="https://github.com/esathiyamoorthi"
+           target="_blank"
+           rel="noopener noreferrer">
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/e-sathiya-moorthi-45b449331"
+           target="_blank"
+           rel="noopener noreferrer">
+            LinkedIn
+        </a>
+
+        <a href="https://wa.me/8851461765"
+           target="_blank"
+           rel="noopener noreferrer">
+            WhatsApp
+        </a>
+
+        <a href="mailto:sm010010001@gmail.com">
+            Email Me
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© <span id="currentYear"></span> Sathiyamoorthi. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+   
+
+</body>
+</html>
